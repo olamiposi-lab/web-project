@@ -1,6 +1,4 @@
-/* .container {
-  
-} */
+
 html {
   height: auto;
   margin: 0;
@@ -16,17 +14,12 @@ body {
   margin: 0;
   padding: 0;
 }
-/*.back {
-  position: absolute;
-  width: 1500px;
-  height: 1000px;
-}*/
+
 .logo {
   display: flex;
   align-items: center;
   justify-content: center;
-  /*width: 50%;
-    margin:0 auto;*/
+  
 }
 #logo1 {
   margin-top: 50px;
@@ -42,10 +35,7 @@ body {
   max-width: 900px;
   padding: 10px;
 }
-/* .secondcover2{
-margin: 0 auto;
-width:100%;
-}  */
+
 h1 {
   color: black;
   font-family: "Bai Jamjuree", serif;
@@ -109,20 +99,7 @@ h2 {
 .imagecover {
   width: 600px;
 }
-/* .desktopcover {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: 20px;
-gap: 90px; 
-float: left;
-width: auto;
-height: auto; 
- 
-} */
-/* .content {
- 
-margin-right:100px;
-} */
+
 .contentp {
   text-align: left;
 }
@@ -149,11 +126,6 @@ h3 {
   text-align: left;
 }
 .super3 {
-  /* gap: 10px;
-  padding: 10px;
-  
-  margin: 10px;
-  display: block; */
 
   text-align: center;
 }
@@ -188,14 +160,11 @@ h3 {
   margin: 0 auto;
 }
 .foot {
-  /* display: flex;
-  flex-direction: row;
-  gap: 30px;
-  padding: 20px; */
+ 
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  /* gap: 10px; */
+  
   max-width: 601px;
 }
 @media (max-width: 768px) {
