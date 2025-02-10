@@ -1,0 +1,259 @@
+/* .container {
+  
+} */
+html {
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  background-color: hsl(201, 11%, 80%);
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin: 0;
+  padding: 0;
+}
+/*.back {
+  position: absolute;
+  width: 1500px;
+  height: 1000px;
+}*/
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*width: 50%;
+    margin:0 auto;*/
+}
+#logo1 {
+  margin-top: 50px;
+}
+.first {
+  background-image: url(./images/bg-header-desktop.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cover {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 10px;
+}
+/* .secondcover2{
+margin: 0 auto;
+width:100%;
+}  */
+h1 {
+  color: black;
+  font-family: "Bai Jamjuree", serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+}
+p {
+  font-family: "Bai Jamjuree", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: hsl(210, 10%, 33%);
+}
+a {
+  font-family: "Bai Jamjuree", serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 12pt;
+}
+.green:hover {
+  transform: scale(1.05);
+}
+.blue:hover {
+  transform: scale(1.05);
+}
+.green {
+  background-color: hsl(171, 66%, 44%);
+}
+.blue {
+  background-color: hsl(233, 100%, 69%);
+}
+.acover {
+  gap: 10px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  display: flex;
+}
+
+h2 {
+  color: black;
+  font-family: "Bai Jamjuree", serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+}
+
+.desktopcover {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.imagecover {
+  width: 600px;
+}
+/* .desktopcover {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 20px;
+gap: 90px; 
+float: left;
+width: auto;
+height: auto; 
+ 
+} */
+/* .content {
+ 
+margin-right:100px;
+} */
+.contentp {
+  text-align: left;
+}
+.imagecover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.super {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  gap: 10px;
+  max-width: 984px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+h3 {
+  color: black;
+  font-family: "Bai Jamjuree", serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: left;
+}
+.super3 {
+  /* gap: 10px;
+  padding: 10px;
+  
+  margin: 10px;
+  display: block; */
+
+  text-align: center;
+}
+.super3 h3 {
+  text-align: center;
+}
+.super4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin: 0 auto;
+  max-width: 984px;
+  gap: 10px;
+  padding: 15px;
+}
+.super4 img {
+  width: 100px;
+  margin: 0 auto;
+}
+.footer2 {
+  background-color: hsl(201, 11%, 66%);
+  padding: 10px;
+}
+.foot a {
+  display: block;
+  font-size: 14px;
+  color: black;
+}
+.foot a:hover {
+  color: hsl(171, 66%, 44%);
+}
+.footimg {
+  margin: 0 auto;
+}
+.foot {
+  /* display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding: 20px; */
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* gap: 10px; */
+  max-width: 601px;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 15px;
+  }
+  p {
+    font-size: 10px;
+  }
+  a {
+    font-size: 10px;
+  }
+  h2 {
+    font-size: 13px;
+  }
+  h3 {
+    font-size: 12.5px;
+    text-align: center;
+  }
+  .contentp {
+    text-align: center;
+  }
+  .desktopcover {
+    display: block;
+  }
+  .img1 {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .imagecover {
+    width: 300px;
+    /* margin: 0 auto; */
+  }
+  .super {
+    display: block;
+    max-width: 333px;
+  }
+  .super3 img {
+    width: 30px;
+  }
+  .super4 {
+    display: block;
+  }
+  .super4 img {
+    width: 50px;
+    display: block;
+    margin-top: 20px;
+  }
+  .foot {
+    display: block;
+  }
+  .foot a {
+    font-size: 9px;
+  }
+  .footimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+  }
+}
